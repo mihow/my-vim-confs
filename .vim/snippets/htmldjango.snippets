@@ -14,9 +14,9 @@ snippet autoescape
 	${2}
 	{% endautoescape %}
 snippet block
-	{% block ${1} %}
+	{% block ${1:name} %}
 	${2}
-	{% endblock %}
+	{% endblock $1 %}
 snippet #
 	{# ${1:comment} #}
 snippet comment
