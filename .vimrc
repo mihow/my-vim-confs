@@ -220,3 +220,7 @@ if !exists("myautocmds")
 	autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 	autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 endif
+
+" Lusty requires Ruby
+let g:LustyJugglerSuppressRubyWarning = 1
+let g:LustyExplorerSuppressRubyWarning = 1
